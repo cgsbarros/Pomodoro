@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: "Francois One";
+    src: url("./fonts/FrancoisOne-Regular.ttf");
+}
 body {
+    font-family: "Francois One", sans-serif;
     min-height: 100vh;
     background: gray;
     display: flex;
