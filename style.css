@@ -112,3 +112,18 @@ button:hover {
         padding: 0.5em 1.5em;
     }
 }
+@media (max-width: 480px) {
+    .conteiner {
+        padding: 2em 1em;
+        gap: 1em;
+    }
+
+    .timer {
+        font-size: 6em;
+    }
+
+    button {
+        font-size: 1.2em;
+        padding: 0.8em 1.5em;
+    }
+}
